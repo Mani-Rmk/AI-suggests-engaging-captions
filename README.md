@@ -26,3 +26,8 @@ The app supports:
 ```bash
 git clone https://github.com/Mani-Rmk/AI-suggests-engaging-captions.git
 cd AI-suggests-engaging-captions
+# Step 2–4: Setup environment, install dependencies, and set API key
+python -m venv venv && \
+source venv/bin/activate && \
+pip install -r requirements.txt && \
+echo "GEMINI_API_KEY=your_gemini_api_key_here" > .env
